@@ -11,12 +11,13 @@ body {
   margin: 0;
   overflow-x: hidden;
   font-family: 'KBCloudyDay', sans-serif;
+  background-color: $color-orange;
 }
 
 ol,
 ul,
 li {
-  color: $color-black;
+  color: $color-white;
   text-decoration: none;
 }
 
@@ -27,7 +28,7 @@ h4,
 p,
 span {
   font-family: 'KBCloudyDay', sans-serif;
-  color: $color-black;
+  color: $color-white;
 }
 
 h1 {
