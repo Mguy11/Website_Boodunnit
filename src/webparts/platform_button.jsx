@@ -1,5 +1,4 @@
 import React from 'react';
-import { Col } from 'react-flexbox-grid';
 
 export default class TeamMember extends React.Component {
   render() {

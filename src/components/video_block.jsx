@@ -1,4 +1,3 @@
-import { render } from '@testing-library/react';
 import React from 'react';
 import { Row, Col } from 'react-flexbox-grid';
 import ReactPlayer from 'react-player';
