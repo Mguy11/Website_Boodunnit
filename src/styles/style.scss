@@ -3,10 +3,12 @@
 @import './vars/_spacings.scss';
 
 //Webparts
-
+@import './webparts/platform_button.scss';
 
 //Components
 @import './components/header.scss';
+@import './components/availibility_block.scss';
+@import './components/test.scss';
 
 //Reset
 @import './vars/_reset.scss';

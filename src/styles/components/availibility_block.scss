@@ -1,0 +1,23 @@
+.avalibility {
+  height: 100%;
+  margin-bottom: 4rem;
+
+  &__title {
+    margin: 0;
+  }
+  
+  &__box {
+    border: 0.4rem solid $color-white;
+    box-sizing: border-box;
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+
+  &__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+}
