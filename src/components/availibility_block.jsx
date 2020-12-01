@@ -20,17 +20,17 @@ const AvailibilityBlock = (props) => {
             />
             <PlatformButton
               website="https://www.epicgames.com/store/en-US/"
-              image="../images/icons/gamepad-1.png"
+              image="../images/icons/epic-games-icon.png"
               altText="epic-games-icon"
             />
             <PlatformButton
               website="https://itch.io"
-              image="../images/icons/game-3.png"
+              image="../images/icons/itch-io-icon.png"
               altText="itchio-icon"
             />
             <PlatformButton
               website="https://www.gog.com"
-              image="../images/icons/gamepad-2.png"
+              image="../images/icons/gog-galaxy-icon.png"
               altText="gog-icon"
             />
           </div>

@@ -30,6 +30,7 @@ p,
 span {
   font-family: 'KBCloudyDay', sans-serif;
   color: $color-white;
+  //margin: 0;
 }
 
 h1 {
@@ -73,4 +74,9 @@ span {
 ::-webkit-scrollbar-thumb {
   background: $color-puple-light;
   border-radius: 1.2rem;
+}
+
+.row {
+  min-height: 40rem;
+  margin: 0;
 }

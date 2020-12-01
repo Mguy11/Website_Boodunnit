@@ -13,8 +13,6 @@ const TextBlock = () => {
             Suspendisse a viverra arcu.
           </span>
         </Col>
-      </Row>
-      <Row>
         <Col lgOffset={2} lg={8}>
           <div className="text-block__paragraph">
             <p>
