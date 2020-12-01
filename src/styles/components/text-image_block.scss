@@ -1,0 +1,27 @@
+.text-image {
+  margin-bottom: 4rem;
+  
+  &__image {
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+  }
+
+  &__content {
+    text-align: center;
+    position: relative;
+    margin-top: 20%;
+  }
+
+  &__title {
+    vertical-align: middle;
+  }
+
+  &__paragraph {
+    vertical-align: middle;
+    margin-bottom: 3rem;
+  }
+}
