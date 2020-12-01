@@ -1,5 +1,8 @@
 .video-block {
-  height: 50rem;
-  min-height: 30rem;
-  margin-bottom: 4rem;
+
+  &__frame {
+    height: 50rem;
+    min-height: 30rem;
+    margin-bottom: 4rem;
+  }
 }

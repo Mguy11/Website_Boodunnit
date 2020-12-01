@@ -1,9 +1,14 @@
-.avalibility {
+.availibility {
   height: 100%;
   margin-bottom: 4rem;
 
+  &__devider {
+    border-top: 0.2rem solid $color-white;
+    margin-bottom: 4rem;
+  }
+
   &__title {
-    margin: 0;
+    margin-bottom: 0;
   }
   
   &__box {
