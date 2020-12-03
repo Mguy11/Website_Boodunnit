@@ -7,7 +7,7 @@ import Button from '../webparts/button';
 const TextImageBlock = () => {
   return (
     <div className="text-image">
-      <Row className="row" style={{ marginBottom: "4rem" }}>
+      <Row className="row">
         <Col lgOffset={2} lg={4} >
           <div className="text-image__content">
             <h3 className="text-image__title">Videos and Art</h3>

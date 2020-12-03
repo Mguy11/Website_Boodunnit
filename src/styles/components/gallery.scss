@@ -1,0 +1,17 @@
+.gallery {
+
+  &__wrapper {
+    margin-top: 2rem;
+  }
+
+  &__image {
+    display: block;
+    height: 100%;
+    width: 100%;
+    min-height: 30rem;
+    min-width: 30rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
