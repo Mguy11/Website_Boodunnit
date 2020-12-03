@@ -25,10 +25,6 @@ const images = [
   {
     src: '../images/menu.png',
     altText: 'Lorem ipsum dolor sit amet enzooo',
-  },
-  {
-    src: '../images/menu.png',
-    altText: 'Lorem ipsum dolor sit amet enzooo',
   }
 ]
 
@@ -36,7 +32,7 @@ export default class Gallery extends Component {
 
   state = {
     showModal: false,
-    caption: '',
+    captation: '',
     modalSrc: '',
   }
   render() {
@@ -53,7 +49,6 @@ export default class Gallery extends Component {
                   <Col lg={6} className="gallery__wrapper">
                     <div
                       key={index}
-                      id="myImg"
                       alt={image.altText}
                       style={{ backgroundImage: `url(${image.src})` }}
                       className="gallery__image"
@@ -67,18 +62,14 @@ export default class Gallery extends Component {
             </Row>
           </Col>
         </Row>
-        <div
-          id="myModal"
-          className="modal"
-          style={{ display: this.state.showModal ? 'block' : 'none' }}
-        >
-          <div>
-            <span className="close" onClick={() => this.setState({ showModal: false })}>
+        <div id="modal" className="modal" data-target="#myModal" style={{ display: this.state.showModal ? 'block' : 'none' }} >
+          <div className="modal__content">
+            <span className="modal__close" onClick={() => this.setState({ showModal: false })}>
               &times;
             </span>
-            <img className="modal-content" id="img01" src={this.state.modalSrc} alt={this.props.captation} />
-            <div id="caption">
-              {this.state.caption}
+            <img className="modal__image" id={this.state.index} src={this.state.modalSrc} alt={this.props.captation} />
+            <div class="modal__captation">
+              {this.state.captation}
             </div>
           </div>
         </div>

@@ -9,6 +9,11 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  transition: transform .2s ease-in-out;
+
+  &:hover {
+   transform: scale(1.05);
+  }
 
 
   &__text {

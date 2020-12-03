@@ -13,5 +13,11 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
+    transition: transform .2s ease-in-out;
+
+    &:hover {
+     transform: scale(0.95);
+    }
   }
 }
