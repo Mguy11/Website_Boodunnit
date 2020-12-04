@@ -1,10 +1,12 @@
 import React from 'react';
+
 import AvailibilityBlock from '../components/availibility_block';
 import Header from '../components/header';
 import VideoBlock from '../components/video_block';
 import TextBlock from '../components/text_block';
 import TextImageBlock from '../components/text-image_block';
 import QuoteBlock from '../components/quote_block';
+import Gallery from '../components/gallery';
 
 const Home = () => {
   return (
@@ -16,6 +18,7 @@ const Home = () => {
         <TextBlock />
         <TextImageBlock />
         <QuoteBlock />
+        <Gallery />
       </div>
     </div>
   );
