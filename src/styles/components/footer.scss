@@ -1,18 +1,48 @@
 .footer {
-
+  $self: &;
   &__devider {
-
+    border-top: 0.4rem solid $color-white;
   }
-  
-  &__link {
 
+  &__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 60%;
+    margin: 3rem auto 0 auto;
+    padding: 0;
+  }
+
+  &__link {
+    margin: 1rem 2rem;
+
+    &:hover {
+      #{$self}__link-text {
+        transition: color 0.2s ease-in-out;
+        color: darken($color-white, 20%)
+      }
+    }
+  }
+
+  &__link-text {
+    font-size: 2rem;
+    color: $color-white;
   }
 
   &__copy {
-
+    margin-top: 12rem;
+    font-size: 2rem;
   }
 
   &__logo {
-
+    color: $color-white;
+    display: block;
+    height: 8rem;
+    width: 8rem;
+    margin: 3rem auto 0 auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
