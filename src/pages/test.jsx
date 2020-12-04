@@ -3,6 +3,7 @@ import React from 'react';
 import AvailibilityBlock from '../components/availibility_block';
 import Header from '../components/header';
 import PlatformButton from '../webparts/platform_button';
+import Footer from '../components/footer';
 
 const Test = () => {
   return (
@@ -22,6 +23,7 @@ const Test = () => {
           altText="steam-icon"
         />
       </div>
+      <Footer />
     </div>
   );
 }

@@ -3,15 +3,14 @@ import React from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
 
-const VideoArt = () => {
+const About = () => {
   return (
-    <div className="videoart">
+    <div className="about">
       <Header />
-      <h1>VideoArt</h1>
+      <h1>About</h1>
       <Footer />
     </div>
   );
 }
 
-export default VideoArt;
-
+export default About;
