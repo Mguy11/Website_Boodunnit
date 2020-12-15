@@ -10,7 +10,7 @@ const Footer = (props) => {
       <Row center="lg">
         <Col lg={8}>
           <div className="footer__content">
-            <hr className="footer__devider" />
+            <div className="devider" />
             <ul className="footer__links">
               <li className="footer__link">
                 <Link to="/" className="footer__link-text">Home</Link>

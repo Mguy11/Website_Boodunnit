@@ -9,30 +9,28 @@ const AvailibilityBlock = (props) => {
       <Row center="lg">
         <Col lg={6}>
           <div className="availibility">
-            <h2 className="availibility__title">Available February 1st 2021</h2>
-            <hr className="availibility__devider" />
-            <div className="availibility__box">
-              <h4 className="availibility__platforms">Windows - Mac - Linux</h4>
-            </div>
+            <h2 className="availibility__title">Available December 18th 2020</h2>
+            <div className="devider" />
+            <div className="availibility__box" />
             <div className="availibility__icons">
               <PlatformButton
                 website='https://store.steampowered.com'
-                image='../images/icons/steam.png'
+                image='../images/icons/Logo_Steam.png'
                 altText="steam-icon"
               />
               <PlatformButton
                 website="https://www.epicgames.com/store/en-US/"
-                image="../images/icons/epic-games-icon.png"
+                image="../images/icons/Logo_EpicGames.png"
                 altText="epic-games-icon"
               />
               <PlatformButton
                 website="https://itch.io"
-                image="../images/icons/itch-io-icon.png"
+                image="../images/icons/Logo_itch.png"
                 altText="itchio-icon"
               />
               <PlatformButton
                 website="https://www.gog.com"
-                image="../images/icons/gog-galaxy-icon.png"
+                image="../images/icons/Logo_GOG.png"
                 altText="gog-icon"
               />
             </div>

@@ -1,6 +1,10 @@
 .gallery {
-
   &__wrapper {
+    display: contents;
+    margin-bottom: 6rem;
+  }
+
+  &__image-wrapper {
     margin-top: 2rem;
   }
 

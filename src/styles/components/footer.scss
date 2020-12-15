@@ -1,8 +1,5 @@
 .footer {
   $self: &;
-  &__devider {
-    border-top: 0.4rem solid $color-white;
-  }
 
   &__links {
     display: flex;
