@@ -23,16 +23,16 @@ const TextImageBlock = () => {
         </Col>
         <Col lg={4}>
           <Image
-            image="../images/menu.png"
-            altText="test"
+            image="../images/Julia_WebsiteArt_ArtAndVideos.png"
+            altText="boolia-video-art"
           />
         </Col>
       </Row>
       <Row className="row">
         <Col lgOffset={2} lg={4}>
           <Image
-            image="../images/menu.png"
-            altText="test"
+            image="../images/Julia_WebsiteArt_FAQ.png"
+            altText="boolia-faq"
           />
         </Col>
         <Col lg={4}>

@@ -6,9 +6,9 @@ const QuoteBlock = (props) => {
     <div className="quote-block">
       <Row center="lg">
         <Col lg={8}>
-          <hr className="quote-block__devider" />
+          <div className="devider" />
           <h2 className="quote-block__text">Lorem Ipsum dolor sit amet, consecte tur adipiscing elit - Lorem Ipsum</h2>
-          <hr className="quote-block__devider" />
+          <div className="devider" />
         </Col>
       </Row>
     </div>
