@@ -1,0 +1,14 @@
+.about {
+  &__title {
+    text-align: left;
+  }
+
+  &__content {
+    text-align: left;
+    margin-bottom: 6rem;
+  }
+
+  &__members {
+    columns: 3;
+  }
+}

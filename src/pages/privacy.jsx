@@ -20,9 +20,9 @@ const Privacy = () => {
             <h3>Testing</h3>
             <p>During testing interviews we ask for your personal data (Name, age and gender) and findings in the game. This data will only be collected after you sign the agreement.</p>
             <h3>Game(s)</h3>
-            <p>The game uses our own analyzing tool which collects position and mechanic data. This data is compiled into a JSON file and sent to our server. </p>
+            <p>The game uses our own analyzing tool which collects position and mechanics data. This data is compiled into a JSON file and sent to our server. </p>
             <h2>2. Purpose of the collection</h2>
-            <p>The purpose of the collection is to analyse usage and to improve our game. For example: position and mechanic data are collected to analyse player behaviour and improve level design.</p>
+            <p>The purpose of the collection is to analyse usage and to improve our game. For example: position and mechanics data are collected to analyse player behaviour and improve level design.</p>
             <h2>3. Sharing of information</h2>
             <p>Studio Koprol does not rent or sell your information to third parties for marketing or financial purposes.</p>
             <h2>4. Contact Us</h2>

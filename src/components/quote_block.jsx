@@ -5,13 +5,15 @@ const QuoteBlock = (props) => {
   return (
     <div className="quote-block">
       <Row center="lg">
-        <Col lg={8}>
+        <Col lg={6}>
           <div className="devider" />
-          <h2 className="quote-block__text">Lorem Ipsum dolor sit amet, consecte tur adipiscing elit - Lorem Ipsum</h2>
+          <div>
+            <p className="quote-block__text">Boodunnit?! is the best thing since sliced bread.</p>
+          </div>
           <div className="devider" />
         </Col>
       </Row>
-    </div>
+    </div >
   );
 }
 

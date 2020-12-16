@@ -28,6 +28,9 @@ const Footer = (props) => {
                 <Link to="/gallery" className="footer__link-text">Gallery</Link>
               </li>
               <li className="footer__link">
+                <Link to="/presskit" className="footer__link-text">Presskit</Link>
+              </li>
+              <li className="footer__link">
                 <Link to="/privacy" className="footer__link-text">Privacy</Link>
               </li>
             </ul>

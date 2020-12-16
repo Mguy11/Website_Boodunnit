@@ -1,6 +1,5 @@
 .availibility {
   height: 100%;
-  margin-bottom: 6rem;
 
   &__title {
     margin-bottom: 0;
@@ -23,5 +22,9 @@
     &:hover {
       
     }
+  }
+
+  &__soon {
+    font-style: italic;
   }
 }

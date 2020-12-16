@@ -40,7 +40,7 @@ export default class Gallery extends Component {
     return (
       <div className="gallery">
         <Row center="lg">
-          <Col lg={8}>
+          <Col lg={6}>
             <h2>Gallery</h2>
             <Row style={{ marginBottom: '0' }}>
               <div className="gallery__wrapper">
@@ -64,7 +64,7 @@ export default class Gallery extends Component {
               </div>
               <div style={{ width: '100%', marginTop: '4rem' }}>
                 <Button
-                  website="/faq"
+                  website="/gallery"
                   btnText="Go to gallery"
                 />
               </div>

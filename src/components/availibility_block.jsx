@@ -9,7 +9,7 @@ const AvailibilityBlock = (props) => {
       <Row center="lg">
         <Col lg={6}>
           <div className="availibility">
-            <h2 className="availibility__title">Available December 18th 2020</h2>
+            <h1 className="availibility__title">Available Now</h1>
             <div className="devider" />
             <div className="availibility__box" />
             <div className="availibility__icons">
@@ -34,6 +34,7 @@ const AvailibilityBlock = (props) => {
                 altText="gog-icon"
               />
             </div>
+            <span className="availibility__soon">*other platforms coming soon...</span>
           </div>
         </Col>
       </Row>

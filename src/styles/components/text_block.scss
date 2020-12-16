@@ -1,7 +1,12 @@
 .text-block {
+  min-height: 40rem;
+
+  &__title {
+    text-align: center;
+  }
 
   &__intro {
-   font-size: 2rem;
+   font-size: 2.4rem;
   }
 
   &__paragraph {

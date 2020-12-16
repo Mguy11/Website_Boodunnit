@@ -6,11 +6,11 @@ const VideoBlock = () => {
   return (
     <div className="video-block">
       <Row center="lg">
-        <Col lg={8}>
+        <Col lg={6}>
           <div className="video-block__frame">
             <ReactPlayer
               className='react-player'
-              url="https://www.youtube.com/watch?v=miHQTW7NgQs"
+              url="https://www.youtube.com/watch?v=LAkoycVHrDA&t=6s"
               controls="true"
               pip="true"
               height="100%"

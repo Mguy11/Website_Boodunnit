@@ -1,4 +1,6 @@
 .button {
+  $self: &;
+
   height: 100%;
   width: 100%;
   position: relative;
@@ -13,6 +15,13 @@
 
   &:hover {
    transform: scale(1.05);
+
+   #{$self}__text {
+    &:hover {
+      color: $color-white;
+      transition: color 0.2s ease-in;
+    }
+   }
   }
 
 
@@ -21,10 +30,5 @@
     font-size: 2.4rem;
     margin: 0 auto;
     padding: 2rem 0.5rem 2.5rem 0.5rem;
-
-    &:hover {
-      color: $color-white;
-      transition: color 0.2s ease-in;
-    }
   }
 }
