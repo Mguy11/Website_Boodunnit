@@ -1,0 +1,25 @@
+.socials {
+  &__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__icon {
+    display: block;
+    margin: 2rem;
+    height: 6rem;
+    width: 6rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+  }
+
+  svg {
+    fill: #ffffff;
+    &:hover {
+      fill: invert($color: #000000);
+    }
+  }
+}

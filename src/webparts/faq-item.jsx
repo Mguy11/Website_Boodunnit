@@ -1,7 +1,5 @@
 import React from 'react'
 
-import Button from './button'
-
 export default class FAQitem extends React.Component {
   state = {
     showButton: false,

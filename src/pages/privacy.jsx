@@ -1,12 +1,14 @@
 import React from 'react';
 import { Row, Col } from 'react-flexbox-grid';
 
+import NavBar from '../components/navbar';
 import Header from '../components/header';
 import Footer from '../components/footer';
 
 const Privacy = () => {
   return (
     <div className="privacy">
+      <NavBar />
       <Header />
       <Row center="lg">
         <Col lg={5}>

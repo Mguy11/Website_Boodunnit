@@ -13,7 +13,7 @@ const AvailibilityBlock = (props) => {
             <div className="devider" />
             <div className="availibility__box" />
             <div className="availibility__icons">
-              <PlatformButton
+              {/* <PlatformButton
                 website='https://store.steampowered.com'
                 image='../images/icons/Logo_Steam.png'
                 altText="steam-icon"
@@ -22,17 +22,17 @@ const AvailibilityBlock = (props) => {
                 website="https://www.epicgames.com/store/en-US/"
                 image="../images/icons/Logo_EpicGames.png"
                 altText="epic-games-icon"
-              />
+              /> */}
               <PlatformButton
                 website="https://itch.io"
                 image="../images/icons/Logo_itch.png"
                 altText="itchio-icon"
               />
-              <PlatformButton
+              {/* <PlatformButton
                 website="https://www.gog.com"
                 image="../images/icons/Logo_GOG.png"
                 altText="gog-icon"
-              />
+              /> */}
             </div>
             <span className="availibility__soon">*other platforms coming soon...</span>
           </div>

@@ -30,12 +30,12 @@ const images = [
 ]
 
 export default class Gallery extends Component {
-
   state = {
     showModal: false,
     captation: '',
     modalSrc: '',
   }
+
   render() {
     return (
       <div className="gallery">

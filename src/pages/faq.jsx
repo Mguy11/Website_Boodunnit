@@ -1,6 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'react-flexbox-grid';
 
+import NavBar from '../components/navbar';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import FAQitem from '../webparts/faq-item';
@@ -9,6 +10,7 @@ export default class FAQ extends React.Component {
   render() {
     return (
       <div className="faq">
+        <NavBar />
         <Header />
         <Row center='lg'>
           <Col offset={1} lg={7}>
