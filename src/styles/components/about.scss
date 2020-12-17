@@ -1,14 +1,12 @@
 .about {
-  &__title {
-    text-align: left;
-  }
-
-  &__content {
-    text-align: left;
-    margin-bottom: 6rem;
-  }
-
   &__members {
-    columns: 3;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  &__member {
+    margin: 0 2rem;
   }
 }

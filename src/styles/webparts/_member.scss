@@ -1,8 +1,8 @@
 .member {
   &__content {
-    :nth-child(n+2){
-      margin: 2rem 0;
-    }
+    margin: 0 2rem;
+    width: 25%;
+
   }
   
   &__name {
@@ -13,6 +13,7 @@
   &__description {
     color: $color-brown;
     font-style: italic;
+    margin-top: 1rem;
   }
   
 }

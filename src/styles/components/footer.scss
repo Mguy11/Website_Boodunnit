@@ -12,7 +12,7 @@
   }
 
   &__link {
-    margin: 1rem 2rem;
+    margin: $spacing-extra-samll 2rem;
 
     &:hover {
       #{$self}__link-text {

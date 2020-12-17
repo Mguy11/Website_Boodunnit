@@ -3,10 +3,9 @@ import { Row, Col } from 'react-flexbox-grid';
 
 import NavBar from '../components/navbar';
 import Header from '../components/header';
-import Socials from '../webparts/socials';
 import Footer from '../components/footer';
 
-const members = [
+const designers = [
   {
     name: "Maya Bloem",
     role: "Game Design Lead"
@@ -18,7 +17,10 @@ const members = [
   {
     name: "Martijn Bankert",
     role: "Game Designer"
-  },
+  }
+]
+
+const artists = [
   {
     name: "Kela van der Deijl",
     role: "Art Lead"
@@ -36,11 +38,14 @@ const members = [
     role: "Artist"
   },
   {
-    name: "Mischa ",
+    name: "Mischa Penders",
     role: "Artist"
-  },
+  }
+]
+
+const developers = [
   {
-    name: "Patrick",
+    name: "Patrick Vonk",
     role: "Development Lead"
   },
   {
@@ -64,9 +69,9 @@ const members = [
     role: "Developer"
   },
   {
-    name: "Nathan ",
+    name: "Nathan Drijver",
     role: "Developer"
-  },
+  }
 ]
 
 export default class About extends React.Component {
@@ -88,11 +93,56 @@ export default class About extends React.Component {
         </Row>
         <Row center='lg'>
           <Col lg={6}>
-            <h2>Team members</h2>
+            <div>
+              <h2>Producer</h2>
+              <p className="member__name">Febe Mollen</p>
+              <p className="member__description">Producer</p>
+            </div>
+          </Col>
+        </Row>
+        <Row center='lg'>
+          <Col lg={6}>
+            <h2>Design Team</h2>
             <ul className="about__members">
-              {members.map((member) => {
-                const name = member.name;
-                const role = member.role;
+              {designers.map((designer) => {
+                const name = designer.name;
+                const role = designer.role;
+
+                return (
+                  <li className="member__content">
+                    <p className="member__name">{name}</p>
+                    <p className="member__description">{role}</p>
+                  </li>
+                )
+              })}
+            </ul>
+          </Col>
+        </Row>
+        <Row center='lg'>
+          <Col lg={6}>
+            <h2>Art Team</h2>
+            <ul className="about__members">
+              {artists.map((artist) => {
+                const name = artist.name;
+                const role = artist.role;
+
+                return (
+                  <li className="member__content">
+                    <p className="member__name">{name}</p>
+                    <p className="member__description">{role}</p>
+                  </li>
+                )
+              })}
+            </ul>
+          </Col>
+        </Row>
+        <Row center='lg'>
+          <Col lg={6}>
+            <h2>Development Team</h2>
+            <ul className="about__members">
+              {developers.map((developer) => {
+                const name = developer.name;
+                const role = developer.role;
 
                 return (
                   <li className="member__content">

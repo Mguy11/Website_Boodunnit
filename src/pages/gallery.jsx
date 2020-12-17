@@ -29,6 +29,30 @@ const images = [
   {
     src: '../images/gallery/SirBoonkle_Render_01.png',
     altText: 'Lorem ipsum dolor sit amet enzooo',
+  },
+  {
+    src: "../images/gallery/Still001.png",
+    altText: "You can scare NPC's!",
+  },
+  {
+    src: "../images/gallery/Still002.png",
+    altText: "Levitate objects with your ghost abilities",
+  },
+  {
+    src: "../images/gallery/Still003.png",
+    altText: "You can also possess other living beings",
+  },
+  {
+    src: "../images/gallery/Still004.png",
+    altText: "Create your own path",
+  },
+  {
+    src: "../images/gallery/Still005.png",
+    altText: "Use special abilities to create new routes",
+  },
+  {
+    src: "../images/gallery/Still006.png",
+    altText: "So sad, but you are back",
   }
 ]
 
@@ -45,7 +69,7 @@ export default class Gallery extends React.Component {
         <Header />
         <div className="gallery">
           <Row center="lg">
-            <Col lg={6}>
+            <Col lg={9}>
               <h2>Gallery</h2>
               <Row style={{ marginBottom: '0' }}>
                 <div className="gallery__wrapper">
@@ -53,7 +77,7 @@ export default class Gallery extends React.Component {
                     const alt = image.altText;
                     const src = image.src;
                     return (
-                      <Col lg={6} className="gallery__image-wrapper">
+                      <Col lg={3} className="gallery__image-wrapper">
                         <div
                           key={index}
                           alt={image.altText}

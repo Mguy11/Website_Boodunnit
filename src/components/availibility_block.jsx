@@ -24,7 +24,7 @@ const AvailibilityBlock = (props) => {
                 altText="epic-games-icon"
               /> */}
               <PlatformButton
-                website="https://itch.io"
+                website="https://studiokoprol.itch.io/boodunnit"
                 image="../images/icons/Logo_itch.png"
                 altText="itchio-icon"
               />

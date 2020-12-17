@@ -3,7 +3,7 @@
   width: 100%;
   min-width: 100rem;
   margin: 0 auto;
-  margin-bottom: 6rem;
+  margin-bottom: $spacing-bottom-big;
 
   &__image {
     background: url('../../images/WebsiteHeader_Art.png') no-repeat center center;

@@ -6,11 +6,11 @@
   }
 
   &__intro {
-   font-size: 2.4rem;
+   font-size: $font-size-h4;
   }
 
   &__paragraph {
-    margin-top: 2rem;
+    margin-top: $spacing-small;
     column-count: 2;
   }
 }

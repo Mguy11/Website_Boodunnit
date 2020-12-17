@@ -4,28 +4,28 @@ import Button from '../webparts/button'
 
 const images = [
   {
-    src: "../images/gallery/Julia_Render_04_2.png",
-    altText: 'Lorem ipsum dolor sit amet',
+    src: "../images/gallery/Still001.png",
+    altText: "You can scare NPC's!",
   },
   {
-    src: '../images/gallery/NPC_Emmie_Turnaround.png',
-    altText: 'Lorem ipsum dolor sit amet enzooo',
+    src: "../images/gallery/Still002.png",
+    altText: "Levitate objects with your ghost abilities",
   },
   {
-    src: "../images/gallery/PoliceOfficer3_Render_Scared.png",
-    altText: 'Lorem ipsum dolor sit amet',
+    src: "../images/gallery/Still003.png",
+    altText: "You can also possess other living beings",
   },
   {
-    src: '../images/gallery/PreTutorialLevel.png',
-    altText: 'Lorem ipsum dolor sit amet enzooo',
+    src: "../images/gallery/Still004.png",
+    altText: "Create your own path",
   },
   {
-    src: '../images/gallery/SirBloemkool2.png',
-    altText: 'Lorem ipsum dolor sit amet enzooo',
+    src: "../images/gallery/Still005.png",
+    altText: "Use special abilities to create new routes",
   },
   {
-    src: '../images/gallery/SirBoonkle_Render_01.png',
-    altText: 'Lorem ipsum dolor sit amet enzooo',
+    src: "../images/gallery/Still006.png",
+    altText: "So sad, but you are back",
   }
 ]
 

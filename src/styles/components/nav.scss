@@ -16,7 +16,7 @@
   }
 
   &__item {
-    margin: 0 2rem;
+    margin: 0 $spacing-small;
 
     &:hover {
       cursor: pointer;
@@ -39,9 +39,9 @@
 
   &__logo {
     display: block;
-    height: 6rem;
-    width: 6rem;
-    margin: 0 2rem;
+    height: $spacing-big;
+    width: $spacing-big;
+    margin: 0 $spacing-small;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

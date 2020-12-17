@@ -10,6 +10,7 @@ const VideoArt = () => {
       <NavBar />
       <Header />
       <h1>VideoArt</h1>
+
       <Footer />
     </div>
   );

@@ -1,12 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-flexbox-grid';
 
-import facebook from '../images/icons/facebook.svg';
-import instagram from '../images/icons/instagram.svg';
-import twitter from '../images/icons/twitter.svg';
-import discord from '../images/icons/discord.svg';
-
-
 const Socials = () => {
   return (
     <div className="socials">

@@ -7,9 +7,9 @@
 
   &__icon {
     display: block;
-    margin: 2rem;
-    height: 6rem;
-    width: 6rem;
+    margin: $spacing-small;
+    height: $spacing-big;
+    width: $spacing-big;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
