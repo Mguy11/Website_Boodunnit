@@ -27,4 +27,13 @@
   &__soon {
     font-style: italic;
   }
+
+  &__gif {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin-bottom: $spacing-bottom-small;
+    min-height: 8rem;
+    width: 100%;
+  }
 }

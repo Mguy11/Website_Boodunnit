@@ -4,28 +4,24 @@ import Button from '../webparts/button'
 
 const images = [
   {
-    src: "../images/gallery/Still001.png",
-    altText: "You can scare NPC's!",
+    src: "../images/gallery/Itch_Screenshot_1.png",
+    altText: "You are an actual ghost!",
   },
   {
-    src: "../images/gallery/Still002.png",
+    src: "../images/gallery/Itch_Screenshot_2.png",
     altText: "Levitate objects with your ghost abilities",
   },
   {
-    src: "../images/gallery/Still003.png",
+    src: "../images/gallery/Itch_Screenshot_3.png",
     altText: "You can also possess other living beings",
   },
   {
-    src: "../images/gallery/Still004.png",
-    altText: "Create your own path",
-  },
-  {
-    src: "../images/gallery/Still005.png",
+    src: "../images/gallery/Itch_Screenshot_4.png",
     altText: "Use special abilities to create new routes",
   },
   {
-    src: "../images/gallery/Still006.png",
-    altText: "So sad, but you are back",
+    src: "../images/gallery/Itch_Screenshot_5.png",
+    altText: "Scare people...",
   }
 ]
 
