@@ -4,13 +4,17 @@
 
 //Webparts
 @import './webparts/button';
-@import './webparts/platform_button.scss';
-@import './webparts/image.scss';
+@import './webparts/platform_button';
+@import './webparts/image';
 @import './webparts/modal';
 @import './webparts//devider';
+@import './webparts/faq-item';
+@import './webparts/member';
+@import './webparts/socials';
 
 //Components
 @import './components/header.scss';
+@import './components/about.scss';
 @import './components/availibility_block.scss';
 @import './components/video_block.scss';
 @import './components/text_block.scss';
@@ -20,6 +24,8 @@
 @import './components/footer.scss';
 @import './components/test.scss';
 @import './components/privacy.scss';
+@import './components/faq.scss';
+@import './components/nav.scss';
 
 //Reset
 @import './vars/_reset.scss';

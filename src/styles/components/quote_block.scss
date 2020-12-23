@@ -1,7 +1,10 @@
 .quote-block {
   
   &__text {
-    margin: 4rem 0;
+    font-size: $font-size-h2;
+    max-width: 80%;
+    
+    margin: $spacing-big auto;
 
     &::before {
       content: '" ';

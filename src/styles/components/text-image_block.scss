@@ -2,8 +2,10 @@
   margin-bottom: 10rem;
   
   &__image {
-    height: 100%;
-    width: 100%;
+    position: relative;
+    height: 90%;
+    top: 5%;
+    margin: 0 auto;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;

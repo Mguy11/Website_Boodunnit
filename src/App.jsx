@@ -9,6 +9,7 @@ import About from './pages/about';
 import Privacy from './pages/privacy';
 import Faq from './pages/faq';
 import Gallery from './pages/gallery';
+import Presskit from './pages/presskit';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route exact path="/gallery" component={Gallery} />
         <Route exact path="/about" component={About} />
         <Route exact path="/privacy" component={Privacy} />
+        <Route exact path="/presskit" component={Presskit} />
         <Route exact path="/test" component={Test} />
         <Route patch="/" render={() => <div>404</div>} />
       </Switch>

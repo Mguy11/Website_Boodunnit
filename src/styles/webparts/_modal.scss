@@ -5,6 +5,7 @@
   height: 100%;
   width: 100%;
   transform: translate(-50%, -50%);
+  z-index: 999;
 
   &:after {
     content: '';
@@ -37,14 +38,14 @@
     width: 100%;
     color: $color-white;
     text-align: center;
-    font-size: 2.4rem;
-    padding: 2rem 0;
+    font-size: $font-size-h4;
+    padding: $spacing-small 0;
   }
 
   &__close {
-    font-size: 4rem;
+    font-size: $font-size-h2;
     align-self: flex-start;
-    padding-left: 1rem;
+    padding-left: $spacing-extra-samll;
     cursor: pointer;
 
     &:hover {

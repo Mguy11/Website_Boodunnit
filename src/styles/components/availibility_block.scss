@@ -1,6 +1,5 @@
 .availibility {
   height: 100%;
-  margin-bottom: 6rem;
 
   &__title {
     margin-bottom: 0;
@@ -9,7 +8,7 @@
   &__box {
     background: url('../../images/Website_Platforms_MacWindowsLinux.png') no-repeat center center;
     background-size: contain;
-    margin-bottom: 2rem;
+    margin-bottom: $spacing-bottom-small;
     min-height: 8rem;
     width: 100%;
   }
@@ -18,10 +17,23 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: $spacing-bottom-small;
 
     &:hover {
       
     }
+  }
+
+  &__soon {
+    font-style: italic;
+  }
+
+  &__gif {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin-bottom: $spacing-bottom-small;
+    min-height: 8rem;
+    width: 100%;
   }
 }

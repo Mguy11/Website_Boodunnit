@@ -4,43 +4,39 @@ import Button from '../webparts/button'
 
 const images = [
   {
-    src: "../images/gallery/Julia_Render_04_2.png",
-    altText: 'Lorem ipsum dolor sit amet',
+    src: "../images/gallery/Itch_Screenshot_1.png",
+    altText: "You are an actual ghost!",
   },
   {
-    src: '../images/gallery/NPC_Emmie_Turnaround.png',
-    altText: 'Lorem ipsum dolor sit amet enzooo',
+    src: "../images/gallery/Itch_Screenshot_2.png",
+    altText: "Levitate objects with your ghost abilities",
   },
   {
-    src: "../images/gallery/PoliceOfficer3_Render_Scared.png",
-    altText: 'Lorem ipsum dolor sit amet',
+    src: "../images/gallery/Itch_Screenshot_3.png",
+    altText: "You can also possess other living beings",
   },
   {
-    src: '../images/gallery/PreTutorialLevel.png',
-    altText: 'Lorem ipsum dolor sit amet enzooo',
+    src: "../images/gallery/Itch_Screenshot_4.png",
+    altText: "Use special abilities to create new routes",
   },
   {
-    src: '../images/gallery/SirBloemkool2.png',
-    altText: 'Lorem ipsum dolor sit amet enzooo',
-  },
-  {
-    src: '../images/gallery/SirBoonkle_Render_01.png',
-    altText: 'Lorem ipsum dolor sit amet enzooo',
+    src: "../images/gallery/Itch_Screenshot_5.png",
+    altText: "Scare people...",
   }
 ]
 
 export default class Gallery extends Component {
-
   state = {
     showModal: false,
     captation: '',
     modalSrc: '',
   }
+
   render() {
     return (
       <div className="gallery">
         <Row center="lg">
-          <Col lg={8}>
+          <Col lg={6}>
             <h2>Gallery</h2>
             <Row style={{ marginBottom: '0' }}>
               <div className="gallery__wrapper">
@@ -64,7 +60,7 @@ export default class Gallery extends Component {
               </div>
               <div style={{ width: '100%', marginTop: '4rem' }}>
                 <Button
-                  website="/faq"
+                  website="/gallery"
                   btnText="Go to gallery"
                 />
               </div>

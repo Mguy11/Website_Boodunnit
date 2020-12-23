@@ -1,11 +1,16 @@
 .text-block {
+  min-height: 40rem;
+
+  &__title {
+    text-align: center;
+  }
 
   &__intro {
-   font-size: 2rem;
+   font-size: $font-size-h4;
   }
 
   &__paragraph {
-    margin-top: 2rem;
+    margin-top: $spacing-small;
     column-count: 2;
   }
 }

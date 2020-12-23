@@ -1,18 +1,18 @@
 .gallery {
   &__wrapper {
     display: contents;
-    margin-bottom: 6rem;
+    margin-bottom: $spacing-bottom-big;
   }
 
   &__image-wrapper {
-    margin-top: 2rem;
+    margin-top: $spacing-small;
   }
 
   &__image {
     display: block;
     height: 100%;
     width: 100%;
-    min-height: 30rem;
+    min-height: 25rem;
     min-width: 30rem;
     background-position: center center;
     background-repeat: no-repeat;

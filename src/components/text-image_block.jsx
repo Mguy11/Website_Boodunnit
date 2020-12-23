@@ -8,12 +8,11 @@ const TextImageBlock = () => {
   return (
     <div className="text-image">
       <Row className="row">
-        <Col lgOffset={2} lg={4} >
+        <Col lgOffset={3} lg={3} >
           <div className="text-image__content">
             <h3 className="text-image__title">Videos and Art</h3>
             <p className="text-image__paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum velit eu nunc luctus, at placerat neque vehicula.
-              Morbi rhoncus sed sem ut ornare.
+              Want to see more of Boodunnit? Click here to find pretty pictures. Some of them even move!
             </p>
             <Button
               website="/videos-art"
@@ -21,7 +20,7 @@ const TextImageBlock = () => {
             />
           </div>
         </Col>
-        <Col lg={4}>
+        <Col lg={3}>
           <Image
             image="../images/Julia_WebsiteArt_ArtAndVideos.png"
             altText="boolia-video-art"
@@ -29,18 +28,17 @@ const TextImageBlock = () => {
         </Col>
       </Row>
       <Row className="row">
-        <Col lgOffset={2} lg={4}>
+        <Col lgOffset={3} lg={3}>
           <Image
             image="../images/Julia_WebsiteArt_FAQ.png"
             altText="boolia-faq"
           />
         </Col>
-        <Col lg={4}>
+        <Col lg={3}>
           <div className="text-image__content">
             <h3 className="text-image__title">FAQ</h3>
             <p className="text-image__paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum velit eu nunc luctus, at placerat neque vehicula.
-              Morbi rhoncus sed sem ut ornare-
+              Got any burning questions? Take a look and hopefully you’ll find your answer here!
             </p>
             <Button
               website="/faq"

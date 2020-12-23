@@ -1,0 +1,12 @@
+.about {
+  &__members {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  &__member {
+    margin: 0 2rem;
+  }
+}
