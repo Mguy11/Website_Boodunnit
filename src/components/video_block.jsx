@@ -10,7 +10,7 @@ const VideoBlock = () => {
           <div className="video-block__frame">
             <ReactPlayer
               className='react-player'
-              url="https://www.youtube.com/watch?v=LAkoycVHrDA&t=6s"
+              url="https://www.youtube.com/watch?v=rSXmAEQH5PI&feature=youtu.be"
               controls="true"
               pip="true"
               height="100%"

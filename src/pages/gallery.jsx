@@ -8,27 +8,27 @@ import Footer from '../components/footer';
 const images = [
   {
     src: "../images/gallery/Julia_Render_04_2.png",
-    altText: 'Lorem ipsum dolor sit amet',
+    altText: 'Boolia in her natural habitat',
   },
   {
     src: '../images/gallery/NPC_Emmie_Turnaround.png',
-    altText: 'Lorem ipsum dolor sit amet enzooo',
+    altText: 'Emmie concept art',
   },
   {
     src: "../images/gallery/PoliceOfficer3_Render_Scared.png",
-    altText: 'Lorem ipsum dolor sit amet',
+    altText: 'Scare introduction',
   },
   {
     src: '../images/gallery/PreTutorialLevel.png',
-    altText: 'Lorem ipsum dolor sit amet enzooo',
+    altText: 'Boolia surfing on clouds',
   },
   {
     src: '../images/gallery/SirBloemkool2.png',
-    altText: 'Lorem ipsum dolor sit amet enzooo',
+    altText: 'Mr.Bloemkool',
   },
   {
     src: '../images/gallery/SirBoonkle_Render_01.png',
-    altText: 'Lorem ipsum dolor sit amet enzooo',
+    altText: 'Mr.Boonkle concept art',
   },
   {
     src: "../images/gallery/Still001.png",
