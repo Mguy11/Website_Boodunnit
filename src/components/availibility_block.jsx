@@ -27,7 +27,7 @@ const AvailibilityBlock = (props) => {
               />
               <PlatformButton
                 website="https://gamejolt.com/games/boodunnit/573210"
-                image="../images/icons/Logo_EpicGames.png"
+                image="../images/icons/Logo_GameJolt.png"
                 altText="gamejolt-games-icon"
               />
             </div>
