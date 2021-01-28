@@ -1,0 +1,11 @@
+.videoart {
+  &__videos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  &__video {
+    margin: 1rem;
+  }
+}

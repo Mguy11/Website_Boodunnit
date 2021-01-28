@@ -7,30 +7,6 @@ import Footer from '../components/footer';
 
 const images = [
   {
-    src: "../images/gallery/Julia_Render_04_2.png",
-    altText: 'Boolia in her natural habitat',
-  },
-  {
-    src: '../images/gallery/NPC_Emmie_Turnaround.png',
-    altText: 'Emmie concept art',
-  },
-  {
-    src: "../images/gallery/PoliceOfficer3_Render_Scared.png",
-    altText: 'Scare introduction',
-  },
-  {
-    src: '../images/gallery/PreTutorialLevel.png',
-    altText: 'Boolia surfing on clouds',
-  },
-  {
-    src: '../images/gallery/SirBloemkool2.png',
-    altText: 'Mr.Bloemkool',
-  },
-  {
-    src: '../images/gallery/SirBoonkle_Render_01.png',
-    altText: 'Mr.Boonkle concept art',
-  },
-  {
     src: "../images/gallery/Still001.png",
     altText: "You can scare NPC's!",
   },

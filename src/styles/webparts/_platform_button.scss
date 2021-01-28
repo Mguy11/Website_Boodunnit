@@ -1,5 +1,6 @@
 .platform-button {
   margin: $spacing-extra-samll;
+  text-decoration: none;
 
   &__icon {
     height: 8rem;
@@ -7,5 +8,10 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
+  }
+
+  &__text {
+    margin-top: 0.5rem;
+    max-width: fit-content;
   }
 }

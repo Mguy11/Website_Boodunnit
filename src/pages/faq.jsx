@@ -23,7 +23,7 @@ export default class FAQ extends React.Component {
             />
             <FAQitem
               title='Where can I get this game?'
-              body='Right now you can get it on Itch.io, and further updates will be announced via our social media.'
+              body='Right now you can get it on Itch.io, Game Jolt and soon on Steam.'
             />
             <FAQitem
               title='What is Studio Koprol?'

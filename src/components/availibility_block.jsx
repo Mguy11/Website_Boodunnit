@@ -1,7 +1,9 @@
 import React from 'react'
 import { Row, Col } from 'react-flexbox-grid'
 
-import availableGif from '../images/gifs/AvailablePlatforms_WindowsOnly.gif';
+import availableGif from '../images/gifs/AvailablePlatforms.gif';
+
+import PlatformButton from '../webparts/platform_button';
 
 const AvailibilityBlock = (props) => {
   return (
@@ -12,28 +14,22 @@ const AvailibilityBlock = (props) => {
             <h1 className="availibility__title">Available Now</h1>
             <div className="devider" />
             <div className="availibility__gif" style={{ backgroundImage: `url(${availableGif})` }}></div>
-            {/* <div className="availibility__box" /> */}
             <div className="availibility__icons">
-              {/* <PlatformButton
-                website='https://store.steampowered.com'
+              <PlatformButton
+                website='https://store.steampowered.com/app/1515290/Boodunnit/'
                 image='../images/icons/Logo_Steam.png'
                 altText="steam-icon"
               />
               <PlatformButton
-                website="https://www.epicgames.com/store/en-US/"
-                image="../images/icons/Logo_EpicGames.png"
-                altText="epic-games-icon"
-              /> */}
-              {/* <PlatformButton
                 website="https://studiokoprol.itch.io/boodunnit"
                 image="../images/icons/Logo_itch.png"
                 altText="itchio-icon"
-              /> */}
-              {/* <PlatformButton
-                website="https://www.gog.com"
-                image="../images/icons/Logo_GOG.png"
-                altText="gog-icon"
-              /> */}
+              />
+              <PlatformButton
+                website="https://gamejolt.com/games/boodunnit/573210"
+                image="../images/icons/Logo_EpicGames.png"
+                altText="gamejolt-games-icon"
+              />
             </div>
           </div>
         </Col>
