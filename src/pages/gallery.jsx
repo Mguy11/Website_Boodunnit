@@ -8,67 +8,67 @@ import Footer from '../components/footer';
 const images = [
   {
     src: "../images/gallery/SS06.png",
-    altText: "memes",
+    altText: "Boolia at the start of the tutorial",
   },
   {
     src: "../images/gallery/SS07.png",
-    altText: "Levitate objects with your ghost abilities",
+    altText: "Boolia thinking about her life",
   },
   {
     src: "../images/gallery/SS08.png",
-    altText: "You can also possess other living beings",
+    altText: "Boolia looking back at her first obstacles",
   },
   {
     src: "../images/gallery/SS09.png",
-    altText: "Create your own path",
+    altText: "The resurrection of Julia",
   },
   {
     src: "../images/gallery/SS10.png",
-    altText: "Use special abilities to create new routes",
+    altText: "Chilling with Mr.Boonkle's statue",
   },
   {
     src: "../images/gallery/SS17.png",
-    altText: "So sad, but you are back",
+    altText: "Boolia looking for a way to cross the gap",
   },
   {
     src: "../images/gallery/SS12.png",
-    altText: "memes",
+    altText: "Hmmm... a sleepy guy",
   },
   {
     src: "../images/gallery/SS13.png",
-    altText: "Levitate objects with your ghost abilities",
+    altText: "Boolia relaxing at a bench",
   },
   {
     src: "../images/gallery/SS14.png",
-    altText: "You can also possess other living beings",
+    altText: "Ahhhh the sea",
   },
   {
     src: "../images/gallery/SS01.jpg",
-    altText: "You can also possess other living beings",
+    altText: "Boolia enjoying the view",
   },
   {
     src: "../images/gallery/SS02.jpg",
-    altText: "You can also possess other living beings",
+    altText: "Boolia scaring vincent the vigilante",
   },
   {
     src: "../images/gallery/SS03.jpg",
-    altText: "You can also possess other living beings",
+    altText: "The rat climbing some vines",
   },
   {
     src: "../images/gallery/SS04.jpg",
-    altText: "You can also possess other living beings",
+    altText: "Floaty bird",
   },
   {
     src: "../images/gallery/SS05.jpg",
-    altText: "You can also possess other living beings",
+    altText: "Annie is scared of rats!",
   },
   {
     src: "../images/gallery/SS15.png",
-    altText: "Create your own path",
+    altText: "First day on the job",
   },
   {
     src: "../images/gallery/SS16.png",
-    altText: "Use special abilities to create new routes",
+    altText: "Bird chilling on the roof",
   }
 ]
 
