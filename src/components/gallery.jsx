@@ -4,24 +4,24 @@ import Button from '../webparts/button'
 
 const images = [
   {
-    src: "../images/gallery/Itch_Screenshot_1.png",
-    altText: "You are an actual ghost!",
+    src: '../images/gallery/SS01.jpg',
+    altText: 'Boolia in thoughts',
   },
   {
-    src: "../images/gallery/Itch_Screenshot_2.png",
-    altText: "Levitate objects with your ghost abilities",
+    src: '../images/gallery/SS02.jpg',
+    altText: 'Boolia attacking Vincent the vigilante',
   },
   {
-    src: "../images/gallery/Itch_Screenshot_3.png",
-    altText: "You can also possess other living beings",
+    src: '../images/gallery/SS03.jpg',
+    altText: 'Rat climbing the vines',
   },
   {
-    src: "../images/gallery/Itch_Screenshot_4.png",
-    altText: "Use special abilities to create new routes",
+    src: '../images/gallery/SS04.jpg',
+    altText: 'Bird gliding through the air',
   },
   {
-    src: "../images/gallery/Itch_Screenshot_5.png",
-    altText: "Scare people...",
+    src: '../images/gallery/SS05.jpg',
+    altText: 'Annie does not like rats!',
   }
 ]
 

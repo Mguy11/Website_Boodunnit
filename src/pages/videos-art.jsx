@@ -84,26 +84,25 @@ const images = [
     altText: 'Boolia and Annie hanging around',
   },
   {
-    src: '../images/art/SS01.jpg',
+    src: '../images/gallery/SS01.jpg',
     altText: 'Boolia in thoughts',
   },
   {
-    src: '../images/art/SS02.jpg',
+    src: '../images/gallery/SS02.jpg',
     altText: 'Boolia attacking Vincent the vigilante',
   },
   {
-    src: '../images/art/SS03.jpg',
+    src: '../images/gallery/SS03.jpg',
     altText: 'Rat climbing the vines',
   },
   {
-    src: '../images/art/SS04.jpg',
+    src: '../images/gallery/SS04.jpg',
     altText: 'Bird gliding through the air',
   },
   {
-    src: '../images/art/SS05.jpg',
+    src: '../images/gallery/SS05.jpg',
     altText: 'Annie does not like rats!',
-  },
-
+  }
 ]
 
 const videos = [

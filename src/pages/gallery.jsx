@@ -7,28 +7,68 @@ import Footer from '../components/footer';
 
 const images = [
   {
-    src: "../images/gallery/Still001.png",
-    altText: "You can scare NPC's!",
+    src: "../images/gallery/SS06.png",
+    altText: "memes",
   },
   {
-    src: "../images/gallery/Still002.png",
+    src: "../images/gallery/SS07.png",
     altText: "Levitate objects with your ghost abilities",
   },
   {
-    src: "../images/gallery/Still003.png",
+    src: "../images/gallery/SS08.png",
     altText: "You can also possess other living beings",
   },
   {
-    src: "../images/gallery/Still004.png",
+    src: "../images/gallery/SS09.png",
     altText: "Create your own path",
   },
   {
-    src: "../images/gallery/Still005.png",
+    src: "../images/gallery/SS10.png",
     altText: "Use special abilities to create new routes",
   },
   {
-    src: "../images/gallery/Still006.png",
+    src: "../images/gallery/SS17.png",
     altText: "So sad, but you are back",
+  },
+  {
+    src: "../images/gallery/SS12.png",
+    altText: "memes",
+  },
+  {
+    src: "../images/gallery/SS13.png",
+    altText: "Levitate objects with your ghost abilities",
+  },
+  {
+    src: "../images/gallery/SS14.png",
+    altText: "You can also possess other living beings",
+  },
+  {
+    src: "../images/gallery/SS01.jpg",
+    altText: "You can also possess other living beings",
+  },
+  {
+    src: "../images/gallery/SS02.jpg",
+    altText: "You can also possess other living beings",
+  },
+  {
+    src: "../images/gallery/SS03.jpg",
+    altText: "You can also possess other living beings",
+  },
+  {
+    src: "../images/gallery/SS04.jpg",
+    altText: "You can also possess other living beings",
+  },
+  {
+    src: "../images/gallery/SS05.jpg",
+    altText: "You can also possess other living beings",
+  },
+  {
+    src: "../images/gallery/SS15.png",
+    altText: "Create your own path",
+  },
+  {
+    src: "../images/gallery/SS16.png",
+    altText: "Use special abilities to create new routes",
   }
 ]
 

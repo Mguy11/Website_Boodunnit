@@ -23,15 +23,11 @@ export default class FAQ extends React.Component {
             />
             <FAQitem
               title='Where can I get this game?'
-              body='Right now you can get it on Itch.io, Game Jolt and soon on Steam.'
+              body='Right now you can get it on Itch.io, Game Jolt and on Steam.'
             />
             <FAQitem
               title='What is Studio Koprol?'
               body='Studio Koprol is a hive mind of 16 students that has created the game Boodunnit?! You can learn more about us on the about us page.'
-            />
-            <FAQitem
-              title='Do you have a press kit available?'
-              body='Yes, you can find it on our presskit page.'
             />
             <FAQitem
               title='If Boolia is a ghost, why can’t she fly?'
